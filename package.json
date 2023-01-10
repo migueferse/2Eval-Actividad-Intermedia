@@ -1,15 +1,17 @@
 {
-  "name": "eslint-template",
+  "name": "2eval-actividad-intermedia",
   "version": "1.0.0",
+  "description": "Actividad intermedia para DWEC",
   "main": "index.js",
   "type": "module",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "eslint": "wrap () { eslint ./src/${1}; }; wrap",
     "winlint": "eslint"
-
   },
+  "author": "Miguel Angel Fernandez",
   "dependencies": {
-    "eslint": "^8.23.1"
+    "eslint": "^8.23.1",
+    "node-fetch": "2"
   }
 }
